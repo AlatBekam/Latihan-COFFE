@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #222831;
+}
+
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: #EEEEEE;
+    color: #222831;
+}
+header .logo {
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    margin-left: 100px;
+    line-height: 55px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    float: left;
+}
+header ul {
+    margin-right: 100px;
+    float: right;
+}
+header ul li {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 5PX;
+}
+header ul li a {
+    padding: 5px 10px;
+    font-size: 18px;
+    color: #222831;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    transition: 500ms;
+}
+header ul li a:hover {
+    border: 2px solid #222831;
+    box-sizing: border-box;
+}
+header ul li a:active {
+    background-color: #222831;
+    color: #EEEEEE;
+}
+
+
+
+
+.kontainer {
+    width: 818px;
+    margin: auto;
+}
+
+.judul {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #EEEEEE;
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+
+.isi .kotak {
+    width: 250px;
+    height: 175px;
+    margin: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid #EEEEEE;
+    border-radius: 15px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.isi .kotak:hover img {
+    transform: scale(1.2)
+     translateY(-35px)
+}
+.isi .kotak:hover .desc {
+    bottom: 0;
+}
+
+.isi .kotak img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 1s;
+}
+.isi .kotak .desc {
+    width: 100%;
+    height: 50px;
+    color: #222831;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    background-color: #EEEEEE;
+    position: absolute;
+    bottom: -50px;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 50px;
+    transition: 1s;
+
+}
